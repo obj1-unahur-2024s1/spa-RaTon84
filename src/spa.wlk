@@ -1,13 +1,23 @@
+object spa{
+	method atender(persona){
+		persona.masaje()
+		persona.banioVapor()
+	}
+}
+
 object olivia{
-	var gradoConcentracion = 6;
+	var gradoConcentracion = 6;	
 	method banioVapor(){		
 	}
+	/*asignacion */
 	method masaje(){
 		gradoConcentracion += 3;
 	}
+	/*asignacion */
 	method discute(){
 		gradoConcentracion -= 1;		
 	}
+	/*consulta */
 	method gradoConcentracion(){
 		return gradoConcentracion;
 	}
@@ -71,23 +81,3 @@ object ramiro{
 		self.bajaAFosa();
 	}
 }
-
-object spa{
-	method atender(persona){
-		persona.masaje()
-		persona.banioVapor()
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
